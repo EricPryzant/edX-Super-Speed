@@ -1,7 +1,7 @@
 # edX-Super-Speed
 edX Super Speed plus Video Downloader greasemonkey script
 
-![edX Super Speed Example](https://imgur.com/a/cJvqoMB)
+![edX Super Speed Example](https://i.imgur.com/4z8bh06.png)
 
 ## Installation
 
