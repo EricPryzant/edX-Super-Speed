@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         edX Super Speed
 // @namespace    http://ericpryzant.com/
 // @version      0.3
 // @description  Try to take over the world!
