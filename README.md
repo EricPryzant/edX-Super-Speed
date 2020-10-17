@@ -4,7 +4,7 @@ edX Super Speed plus Video Downloader greasemonkey script
 This script adds the following features to the edX lecture video player:
 1. Adds four new playback speeds (2.0x, 2.5x, 3.0x, and 4.0x) in addition to the default speeds
 1. Adds a download button above the video player that lets you save the video for offline viewing
-1. Adds new keyboard shortcuts to let you control the video (note: this overrrides the default behavior of the browser shortcuts)
+1. Adds new keyboard shortcuts to let you control the video (note: this overrrides the default behavior for these shortcuts)
     1. Press SPACE to play/pause the video
     1. Pres LEFT/RIGHT to move the video 5 seconds backwards/forwards in time
     1. Press ALT+LEFT/RIGHT to move the video 15 seconds backwards/forwards in time
