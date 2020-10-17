@@ -3,7 +3,7 @@
 // @namespace    http://ericpryzant.com/
 // @version      0.4.0
 // @description  Try to take over the world!
-// @author       You
+// @author       Eric Pryzant
 // @match        https://courses.edx.org/xblock/*
 // @grant        none
 // @run-at document-idle
