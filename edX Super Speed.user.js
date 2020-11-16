@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         edX Super Speed
 // @namespace    http://ericpryzant.com/
-// @version      0.4.0
+// @version      0.5.0
 // @description  Try to take over the world!
 // @author       Eric Pryzant
 // @match        https://courses.edx.org/xblock/*
@@ -11,15 +11,6 @@
 
 (function() {
     'use strict';
-    var vid = document.getElementsByClassName("video")[0];
-    var vid_url = vid.attributes['data-metadata'].value.toString().match("https://edx-video.net/[\\w\-\.]+.mp4")[0];
-    var vid_title = vid.previousElementSibling.innerText;
-    var zNode = document.createElement ('div');
-    zNode.innerHTML = '<button id="myButton" type="button"><a href=' + vid_url + '>Download ' + vid_title + ' lecture video</a></button>';
-    zNode.setAttribute ('id', 'myContainer');
-    zNode.style = "top:0;right:0;position:absolute;z-index:99999;padding:20px;";
-    document.body.appendChild (zNode);
-
     var item = document.getElementsByClassName("video-speeds")[0];
     var new_speed = document.createElement("li");
     var btn = document.createElement("button");
@@ -98,4 +89,13 @@
         }
 
     })
+
+    var vid = document.getElementsByClassName("video")[0];
+    var vid_url = vid.attributes['data-metadata'].value.toString().match("https://[\\w\-\.\/]+.mp4")[0];
+    var vid_title = vid.previousElementSibling.innerText;
+    var zNode = document.createElement ('div');
+    zNode.innerHTML = '<button id="myButton" type="button"><a href=' + vid_url + '>Download ' + vid_title + ' lecture video</a></button>';
+    zNode.setAttribute ('id', 'myContainer');
+    zNode.style = "top:0;right:0;position:absolute;z-index:99999;padding:20px;";
+    document.body.appendChild (zNode);
 })();
