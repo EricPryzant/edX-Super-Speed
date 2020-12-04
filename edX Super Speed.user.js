@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         edX Super Speed
 // @namespace    http://ericpryzant.com/
-// @version      0.5.0
+// @version      0.5.1
 // @description  Try to take over the world!
 // @author       Eric Pryzant
 // @match        https://courses.edx.org/xblock/*
@@ -83,7 +83,7 @@
                 document.getElementsByClassName("current")[0].nextElementSibling.children[0].click()
                 event.preventDefault();
             } else {
-                document.getElementsByClassName("current")[0].nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSiblingchildren[0].click()
+                document.getElementsByClassName("current")[0].nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.children[0].click()
                 event.preventDefault();
             }
         }
