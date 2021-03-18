@@ -14,7 +14,7 @@
     var item = document.getElementsByClassName("video-speeds")[0];
     var new_speed = document.createElement("li");
     var btn = document.createElement("button");
-    var speed_limit = "2.5";
+    var speed_limit = "2.50";
     btn.setAttribute("class", "control speed-option");
     btn.setAttribute("tabindex", -1);
     btn.setAttribute("aria-pressed", "false");
